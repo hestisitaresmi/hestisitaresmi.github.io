@@ -1,0 +1,89 @@
+{
+    "header": {
+        "title": "-Digital Portofolio-",
+        "description": "Hesti Sitaresmi.",
+        "skills": [
+            "Fullstack Developer",
+            "Frontend Developer"
+        ]
+    },
+    "about": {
+        "content": "Programmer dibidang Website (Fullstack Developer). Memiliki paham tentang algoritma pemrograman, struktur database SQL dan non SQL, Struktur JSON Restful API, Struktur Pattern Code.",
+        "photo": "https://avatars.githubusercontent.com/u/42725278?v=4"
+    },
+    "profile": {
+        "content": "Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.",
+        "fullname": "Hesti Sitaresmi",
+        "birthdate": "Maret 30, 1999",
+        "current_job": "Fullstack Developer (RSUD Dr. Soetomo Surabaya)",
+        "website": {
+            "link": "https://hestisitaresmi.github.io/",
+            "alias": "hestisitaresmi.github.io"
+        },
+        "email": {
+            "link": "mailto:hestisitaresmi99@gmail.com?subject=Portofolio Hesti Sitaresmi",
+            "alias": "hestisitaresmi99@gmail.com"
+        },
+        "cv": "https://raw.githubusercontent.com/hestisitaresmi/hestisitaresmi.github.io/master/cv.pdf"
+    },
+    "resume": {
+        "title": "Pengalaman Pekerjaan dan Riwayat Pendidikan",
+        "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+        "work_experience": [{
+                "division": "Fullstack Developer",
+                "company_name": "RSUD Dr. Soetomo",
+                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "start_date": "2022-04-01",
+                "end_date": null
+            },
+            {
+                "division": "Frontend Developer",
+                "company_name": "Universitas Telkom - PuTI",
+                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "start_date": "2020-09-01",
+                "end_date": "2022-04-01"
+            },
+            {
+                "division": "Asisten Praktikum",
+                "company_name": "Universitas Telkom - Fakultas Ilmu Terapan",
+                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "start_date": "2019-08-01",
+                "end_date": "2020-04-01"
+            },
+            {
+                "division": "Content Writer",
+                "company_name": "PT. TELKOM AKSES",
+                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "start_date": "2022-06-01",
+                "end_date": "2022-07-01"
+            },
+            {
+                "division": "Asisten Praktikum",
+                "company_name": "Universitas Telkom - Fakultas Ilmu Terapan",
+                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "start_date": "2018-08-01",
+                "end_date": "2019-05-01"
+            }
+        ],
+        "educations": [{
+            "study_program": "D3 Sistem Informasi (3.70)",
+            "university": "Universitas Telkom",
+            "education_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+            "start_date": "2022-04-01",
+            "end_date": "2022-05-01"
+        }]
+    },
+    "social_medias": [{
+            "link": "https://github.com/hestisitaresmi",
+            "icon": "fa fa-github"
+        },
+        {
+            "link": "https://www.linkedin.com/in/hesti-sitaresmi-843a141a2/",
+            "icon": "fa fa-linkedin"
+        },
+        {
+            "link": "mailto:hestisitaresmi99@gmail.com?subject=Portofolio Hesti Sitaresmi",
+            "icon": "fa fa-envelope"
+        }
+    ]
+}
