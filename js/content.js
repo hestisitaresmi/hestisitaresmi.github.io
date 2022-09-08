@@ -14,8 +14,13 @@ function loadData() {
         //resume
         resume(data.resume);
 
+        //portofolio
+        portofolio(data.portofolio);
+
         //header
-        footer(data.header, data.social_medias);
+        footer(data.footer, data.social_medias);
+
+
     });
 }
 
@@ -48,7 +53,7 @@ function about(obj) {
 }
 
 function profile(obj) {
-    document.getElementById('profile-content').src = obj.content;
+    document.getElementById('profile-content').innerHTML = obj.content;
     document.getElementById('profile-name').innerHTML = obj.fullname;
     document.getElementById('profile-birthdate').innerHTML = obj.birthdate;
     document.getElementById('profile-birthdate').innerHTML = obj.birthdate;
@@ -122,7 +127,81 @@ function education_history(obj) {
     document.getElementById('resume-education-history').innerHTML = educations;
 }
 
+function portofolio(obj) {
+    document.getElementById('portofolio-header').innerHTML = obj.header;
+    document.getElementById('portofolio-content').innerHTML = obj.content;
+
+    var datas = "";
+
+    //box
+    var increment = 1;
+
+    obj.data.forEach(x => {
+        datas += "<div class='bgrid folio-item'>" +
+            "<div class='item-wrap'>" +
+            "<img src='" + x.image + "'>" +
+            "<a href='#modal-" + increment + "' class='overlay'>" +
+            "<div class='folio-item-table'>" +
+            "<div class='folio-item-cell'>" +
+            "<h3 class='folio-title'>" + x.title + "</h3>" +
+            "<span class='folio-types'>" +
+            x.tag +
+            "</span>" +
+            "</div>" +
+            "</div>" +
+            "</a>" +
+            "</div>" +
+            "</div>";
+
+        increment++;
+    });
+
+    //modals
+    var incrementModals = 1;
+
+    obj.data.forEach(x => {
+        datas += "<div id='modal-" + incrementModals + "' class='popup-modal slider mfp-hide'>" +
+            "<div class='media'>" +
+            "<img src='" + x.modals_image + "'" +
+            "</div>" +
+            "<div class='description-box'>" +
+            "<h4>" + x.title + "</h4>" +
+            "<p>" + x.description + "</p>" +
+            "<div class='categories'>" + x.tag + "</div>" +
+            "</div>" +
+            "<div class='link-box'>" +
+            "<a href='" + x.preview_url + "'>Details</a>" +
+            "<a href='#' class='popup-modal-dismiss'>Close</a>" +
+            "</div>" +
+            "</div>";
+
+        incrementModals++;
+    });
+
+    document.getElementById('folio-wrapper').innerHTML = datas;
+
+    //modal popup
+    $('.item-wrap a').magnificPopup({
+        type: 'inline',
+        fixedContentPos: false,
+        removalDelay: 200,
+        showCloseBtn: false,
+        mainClass: 'mfp-fade'
+    });
+
+    $(document).on('click', '.popup-modal-dismiss', function(e) {
+        e.preventDefault();
+        $.magnificPopup.close();
+    });
+}
+
 function footer(obj, social_medias) {
+    document.getElementById('footer-title').innerHTML = obj.title;
+    document.getElementById('footer-description').innerHTML = obj.description;
+    document.getElementById('footer-address').innerHTML = obj.address;
+    document.getElementById('footer-email').innerHTML = "<a style='color:white;' href='" + obj.email.link + "'>" + obj.email.alias + "</a>";
+    document.getElementById('footer-telephone').innerHTML = "<a style='color:white;' href='" + obj.phone.link + "' target='_blank'>" + obj.phone.alias + "</a>";
+
     //social media
     var sms = "";
 

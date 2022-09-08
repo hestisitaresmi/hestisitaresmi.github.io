@@ -8,11 +8,11 @@
         ]
     },
     "about": {
-        "content": "Programmer dibidang Website (Fullstack Developer). Memiliki paham tentang algoritma pemrograman, struktur database SQL dan non SQL, Struktur JSON Restful API, Struktur Pattern Code.",
+        "content": "Hesti Sitaresmi. Seorang Fullstack Developer yang berfokus dibidang pembuatan aplikasi website. Saat ini saya sedang mengerjakan beberapa project terkait pembuatan aplikasi website di RSUD Dr. Soetomo",
         "photo": "https://avatars.githubusercontent.com/u/42725278?v=4"
     },
     "profile": {
-        "content": "Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.",
+        "content": "Programmer dibidang Website (Fullstack Developer). Memiliki paham tentang algoritma pemrograman, struktur database SQL dan non SQL, Struktur JSON Restful API, Struktur Pattern Code.",
         "fullname": "Hesti Sitaresmi",
         "birthdate": "Maret 30, 1999",
         "current_job": "Fullstack Developer (RSUD Dr. Soetomo Surabaya)",
@@ -27,8 +27,8 @@
         "cv": "https://raw.githubusercontent.com/hestisitaresmi/hestisitaresmi.github.io/master/cv.pdf"
     },
     "resume": {
-        "title": "Pengalaman Pekerjaan dan Riwayat Pendidikan",
-        "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+        "title": "Pekerjaan & Pendidikan",
+        "description": "Pengalaman pekerjaan (Professional & Magang) dan Riwayat pendidikan yang telah diampuh.",
         "work_experience": [{
                 "division": "Fullstack Developer",
                 "company_name": "RSUD Dr. Soetomo",
@@ -72,6 +72,160 @@
             "start_date": "2022-04-01",
             "end_date": "2022-05-01"
         }]
+    },
+    "portofolio": {
+        "header": "Check Out Some of My Works.",
+        "content": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+        "data": [{
+                "title": "Aplikasi Antrean Operasi",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Monitoring Nakes Covid",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Pemeriksaan Rujukan",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Swab Umum",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi E-Office",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi EMR",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi S-Klaim Farmasi",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi SIMAKER",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi SPM",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Vaksin Merah Putih",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi SIMP",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi EMR",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Dilant (Studi Lanjut)",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Angular",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi RIS",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Angular",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi E-Mom",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Angular",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Keuangan",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Angular",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            },
+            {
+                "title": "Aplikasi Analisis Beban Kerja",
+                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "tag": "Website | Codeigniter",
+                "image": "images/portfolio/beetle.jpg",
+                "modals_image": "images/portfolio/modals/m-beetle.jpg",
+                "preview_url": "https://github.com/hestisitaresmi"
+            }
+        ]
+    },
+    "footer": {
+        "title": "Kontak Pribadi",
+        "description": "Interaksi secara langsung melalui kontak yang tertera pada bagian bawah ini.",
+        "address": "Surabaya, Jawa Timur, Indonesia",
+        "email": {
+            "link": "mailto:hestisitaresmi99@gmail.com?subject=Portofolio Hesti Sitaresmi",
+            "alias": "hestisitaresmi99@gmail.com"
+        },
+        "phone": {
+            "link": "https://wa.me/6281249121837",
+            "alias": "(WhatsApp) +62 812 49121837"
+        }
     },
     "social_medias": [{
             "link": "https://github.com/hestisitaresmi",
