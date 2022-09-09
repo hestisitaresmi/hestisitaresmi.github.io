@@ -1,7 +1,7 @@
 const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 
 function loadData() {
-    $.getJSON("data.json", function(data) {
+    $.getJSON("data.json", function (data) {
         //header
         header(data.header, data.social_medias);
 
@@ -137,45 +137,49 @@ function portofolio(obj) {
     var increment = 1;
 
     obj.data.forEach(x => {
-        datas += "<div class='bgrid folio-item'>" +
-            "<div class='item-wrap'>" +
-            "<img src='" + x.image + "'>" +
-            "<a href='#modal-" + increment + "' class='overlay'>" +
-            "<div class='folio-item-table'>" +
-            "<div class='folio-item-cell'>" +
-            "<h3 class='folio-title'>" + x.title + "</h3>" +
-            "<span class='folio-types'>" +
-            x.tag +
-            "</span>" +
-            "</div>" +
-            "</div>" +
-            "</a>" +
-            "</div>" +
-            "</div>";
+        if (x.is_active == true) {
+            datas += "<div class='bgrid folio-item'>" +
+                "<div class='item-wrap'>" +
+                "<img src='" + x.image + "'>" +
+                "<a href='#modal-" + increment + "' class='overlay'>" +
+                "<div class='folio-item-table'>" +
+                "<div class='folio-item-cell'>" +
+                "<h3 class='folio-title'>" + x.title + "</h3>" +
+                "<span class='folio-types'>" +
+                x.tag +
+                "</span>" +
+                "</div>" +
+                "</div>" +
+                "</a>" +
+                "</div>" +
+                "</div>";
 
-        increment++;
+            increment++;
+        }
     });
 
     //modals
     var incrementModals = 1;
 
     obj.data.forEach(x => {
-        datas += "<div id='modal-" + incrementModals + "' class='popup-modal slider mfp-hide'>" +
-            "<div class='media'>" +
-            "<img src='" + x.modals_image + "'" +
-            "</div>" +
-            "<div class='description-box'>" +
-            "<h4>" + x.title + "</h4>" +
-            "<p>" + x.description + "</p>" +
-            "<div class='categories'>" + x.tag + "</div>" +
-            "</div>" +
-            "<div class='link-box'>" +
-            "<a href='" + x.preview_url + "'>Details</a>" +
-            "<a href='#' class='popup-modal-dismiss'>Close</a>" +
-            "</div>" +
-            "</div>";
+        if (x.is_active == true) {
+            datas += "<div id='modal-" + incrementModals + "' class='popup-modal slider mfp-hide'>" +
+                "<div class='media'>" +
+                "<img src='" + x.modals_image + "'" +
+                "</div>" +
+                "<div class='description-box'>" +
+                "<h4>" + x.title + "</h4>" +
+                "<p>" + x.description + "</p>" +
+                "<div class='categories'>" + x.tag + "</div>" +
+                "</div>" +
+                "<div class='link-box'>" +
+                "<a href='" + x.preview_url + "'>Details</a>" +
+                "<a href='#' class='popup-modal-dismiss'>Close</a>" +
+                "</div>" +
+                "</div>";
 
-        incrementModals++;
+            incrementModals++;
+        }
     });
 
     document.getElementById('folio-wrapper').innerHTML = datas;
@@ -189,7 +193,7 @@ function portofolio(obj) {
         mainClass: 'mfp-fade'
     });
 
-    $(document).on('click', '.popup-modal-dismiss', function(e) {
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
         e.preventDefault();
         $.magnificPopup.close();
     });

@@ -29,68 +29,103 @@
     "resume": {
         "title": "Pekerjaan & Pendidikan",
         "description": "Pengalaman pekerjaan (Professional & Magang) dan Riwayat pendidikan yang telah diampuh.",
-        "work_experience": [{
+        "work_experience": [
+            {
                 "division": "Fullstack Developer",
                 "company_name": "RSUD Dr. Soetomo",
-                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "job_description": "Merancang dan mengembangkan aplikasi sesuai dengan proses bisnis. Merancang antarmuka dan menyediakan fungsionalitas backend.",
                 "start_date": "2022-04-01",
                 "end_date": null
             },
             {
                 "division": "Frontend Developer",
                 "company_name": "Universitas Telkom - PuTI",
-                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "job_description": "Merancang antar muka aplikasi untuk suatu proses bisnis. Mengembangkan berbagai fitur di dalam aplikasi.",
                 "start_date": "2020-09-01",
                 "end_date": "2022-04-01"
             },
             {
-                "division": "Asisten Praktikum",
-                "company_name": "Universitas Telkom - Fakultas Ilmu Terapan",
-                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
-                "start_date": "2019-08-01",
-                "end_date": "2020-04-01"
-            },
-            {
                 "division": "Content Writer",
-                "company_name": "PT. TELKOM AKSES",
-                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "company_name": "PT. TELKOM AKSES WITEL MADIUN",
+                "job_description": "Menulis dan mempublikasikan artikel untuk membantu memamerkan produk serta menulis artikel tentang berbagai subjek.",
                 "start_date": "2022-06-01",
                 "end_date": "2022-07-01"
             },
             {
                 "division": "Asisten Praktikum",
                 "company_name": "Universitas Telkom - Fakultas Ilmu Terapan",
-                "job_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
+                "job_description": "Membantu dosen dalam mengajar dan membimbing mahasiswa dalam 5 matakuliah (Aplikasi Manajemen Perkantoran, Arsitektur Sistem Komputer,  Pemrograman Berorientasi Objek, Jaringan Komputer, Pemrograman Basis Data)",
                 "start_date": "2018-08-01",
                 "end_date": "2019-05-01"
             }
         ],
-        "educations": [{
-            "study_program": "D3 Sistem Informasi (3.70)",
-            "university": "Universitas Telkom",
-            "education_description": "Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.",
-            "start_date": "2022-04-01",
-            "end_date": "2022-05-01"
-        }]
+        "educations": [
+            {
+                "study_program": "D3 Sistem Informasi (3.70)",
+                "university": "Universitas Telkom",
+                "education_description": "Menjadi bagian dari mahasiswa D3 Sistem Informasi pada tahun 2017. Mempelajari alur dan logika rangkaian bisnis. Merancang dan menyusun beberapa sistem / aplikasi serta aktif dalam berorganisasi. Lulus pada tahun 2022 dengan predikat CUMLAUDE.",
+                "start_date": "2017-08-01",
+                "end_date": "2020-08-19"
+            }
+        ]
     },
     "portofolio": {
-        "header": "Check Out Some of My Works.",
-        "content": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
-        "data": [{
-                "title": "Aplikasi Antrean Operasi",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+        "header": "Website & UI-UX",
+        "content": "Dokumentasi portofolio pada perancangan dan pengembangan sistem aplikasi website dan desain UI-UX yang telah dikerjakan sebelumnya.",
+        "data": [
+            {
+                "title": "Aplikasi Analisis Beban Kerja",
+                "description": "Aplikasi yang membantu dalam proses untuk menetapkan jumlah jam kerja pegawai untuk merampungkan suatu perkerjaan, atau dengan kata lain analisis beban kerja bertujuan untuk menghitung jumlah personalia, tanggung jawab atau beban kerja yang di berikan kepada seseorang",
+                "tag": "Website | Codeigniter",
+                "image": "images/portfolio/abk.jpg",
+                "modals_image": "images/portfolio/modals/m-abk.jpg",
+                "preview_url": "https://www.youtube.com/watch?v=3fC5seIPpxA",
+                "is_active": true
+            },
+            {
+                "title": "Aplikasi EMR",
+                "description": "Sebuah sistem yang berisi riwayat kesehatan dan penyakit pasien, dan hasil tes diagnostik, dan data-data medis yang lain dan informsi biaya perawatan.",
                 "tag": "Website | Laravel",
-                "image": "images/portfolio/beetle.jpg",
-                "": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "image": "images/portfolio/emr.jpg",
+                "modals_image": "images/portfolio/modals/m-emr.jpg",
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": true
+            },
+            {
+                "title": "Aplikasi Vaksin Merah Putih",
+                "description": "Merupakan aplikasi untuk absensi fingerprint peserta vaksin merah putih, yang di gunakapan pada 5 rumah sakit (RSUD Dr.Soetomo SUrabaya, RS Universitas Airlangga Surabaya, RSUD Syaiful Anwar Malang, RS Paru Jember, RSD Dr. Soebandi Jember)",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/vmp.jpg",
+                "modals_image": "images/portfolio/modals/m-vmp.jpg",
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": true
+            },
+            {
+                "title": "Aplikasi SIMAKER",
+                "description": "Sistem manajemen keperawatan di RSUD Dr.Soetomo",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/simaker.jpg",
+                "modals_image": "images/portfolio/modals/m-simaker.jpg",
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": true
+            },
+            {
+                "title": "Aplikasi Sklaim Farmasi",
+                "description": "Sistem untuk input dan verifikasi resep farmasi RSUD Dr. Soetomo.",
+                "tag": "Website | Laravel",
+                "image": "images/portfolio/sklaimfarmasi.jpg",
+                "modals_image": "images/portfolio/modals/m-sklaimfarmasi.jpg",
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": true
             },
             {
                 "title": "Aplikasi Monitoring Nakes Covid",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "description": "",
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi Pemeriksaan Rujukan",
@@ -98,7 +133,8 @@
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi Swab Umum",
@@ -106,7 +142,8 @@
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi E-Office",
@@ -114,31 +151,17 @@
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
-            },
-            {
-                "title": "Aplikasi EMR",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
-                "tag": "Website | Laravel",
-                "image": "images/portfolio/beetle.jpg",
-                "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi S-Klaim Farmasi",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
+                "description": "RSUD .",
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
-            },
-            {
-                "title": "Aplikasi SIMAKER",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
-                "tag": "Website | Laravel",
-                "image": "images/portfolio/beetle.jpg",
-                "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi SPM",
@@ -146,15 +169,8 @@
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
-            },
-            {
-                "title": "Aplikasi Vaksin Merah Putih",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
-                "tag": "Website | Laravel",
-                "image": "images/portfolio/beetle.jpg",
-                "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi SIMP",
@@ -162,7 +178,8 @@
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi EMR",
@@ -170,7 +187,8 @@
                 "tag": "Website | Laravel",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi Dilant (Studi Lanjut)",
@@ -178,7 +196,8 @@
                 "tag": "Website | Angular",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi RIS",
@@ -186,7 +205,8 @@
                 "tag": "Website | Angular",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi E-Mom",
@@ -194,7 +214,8 @@
                 "tag": "Website | Angular",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
                 "title": "Aplikasi Keuangan",
@@ -202,15 +223,17 @@
                 "tag": "Website | Angular",
                 "image": "images/portfolio/beetle.jpg",
                 "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": false
             },
             {
-                "title": "Aplikasi Analisis Beban Kerja",
-                "description": "Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.",
-                "tag": "Website | Codeigniter",
-                "image": "images/portfolio/beetle.jpg",
-                "modals_image": "images/portfolio/modals/m-beetle.jpg",
-                "preview_url": "https://github.com/hestisitaresmi"
+                "title": "Aplikasi GoSawit",
+                "description": "Rancangan aplikasi ini bertujuan untuk memudahkan petani sawit untuk memasarkan hasil panen dan memberikan informasi grafik harga sawit di pasar serta lokasi distributor.",
+                "tag": "UI/UX | Figma",
+                "image": "images/portfolio/gosawit.jpg",
+                "modals_image": "images/portfolio/modals/m-gosawit.jpg",
+                "preview_url": "https://github.com/hestisitaresmi",
+                "is_active": true
             }
         ]
     },
@@ -227,7 +250,8 @@
             "alias": "(WhatsApp) +62 812 49121837"
         }
     },
-    "social_medias": [{
+    "social_medias": [
+        {
             "link": "https://github.com/hestisitaresmi",
             "icon": "fa fa-github"
         },
